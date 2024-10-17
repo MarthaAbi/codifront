@@ -5,7 +5,7 @@ import Baja from '../pages/Baja';
 import Consulta from '../pages/Consulta';
 
 const Router = () => (
-    <BrowserRouter>
+    <BrowserRouter basename='/codifront'>
         <Routes>   
             <Route index element={<Home/>} />
             <Route path="/alta/" element={<Alta/>} />
